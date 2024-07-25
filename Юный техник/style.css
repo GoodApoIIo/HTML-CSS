@@ -1,0 +1,307 @@
+.heading_text {
+	color: #000;
+	font-family: Jost;
+	font-size: 35px;
+	font-style: normal;
+	font-weight: 600;
+}
+
+.heading_container {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.heading_list {
+	display: flex;
+	justify-content: center;
+}
+
+.heading_item {
+	margin-right: 38px;
+	list-style: none;
+}
+
+.heading_link {
+	text-decoration: none;
+	color: #000;
+	font-family: Jost;
+	font-size: 25px;
+	font-style: normal;
+	font-weight: 300;
+}
+
+.heading_button {
+	border-radius: 10px;
+	background: #8C9FE3;
+	padding: 7px;
+}
+
+.heading_link:hover {
+	text-decoration: underline;
+	color: #8C9FE3;
+}
+
+.heading_link_button {
+	text-decoration: none;
+	color: #FFF;
+	font-family: Jost;
+	font-size: 23px;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.header_img_container {
+	margin-top: 56px;
+	text-align: center;
+}
+
+.technic_header_title {
+	color: #000;
+	font-family: Jost;
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 600;
+}
+
+.technic_header_text {
+	color: #000;
+	font-family: Jost;
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 300;
+}
+
+.technic_header {
+	text-align: center;
+	margin-top: 96px;
+}
+
+.card {
+	border-radius: 50px;
+	border: 1px solid rgba(118, 118, 118, 0.50);
+	background: #FFF;
+	width: 360px;
+	height: 400px;
+}
+
+.card_title {
+	margin-top: 12px;
+	margin-bottom: 4px;
+	color: #000;
+	font-family: Jost;
+	font-size: 26px;
+	font-style: normal;
+	font-weight: 500;
+}
+
+.card_description {
+	margin-top: 0px;
+	margin-bottom: 10px;
+	color: #636363;
+	text-align: center;
+	font-family: Jost;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	width: 248px;
+}
+
+.price_1 {
+	color: #3E68FF;
+	font-family: Jost;
+	font-size: 26px;
+	font-style: normal;
+	font-weight: 500;
+	margin-right: 19px;
+}
+
+.price_2 {
+	color: #282828;
+	font-family: Jost;
+	font-size: 26px;
+	font-style: normal;
+	font-weight: 300;
+}
+
+.card_price {
+	margin-bottom: 10px;
+}
+
+.card_button {
+	border-radius: 10px;
+	background: #9EB4FF;
+	width: 210px;
+	height: 35px;
+}
+
+.link_button {
+	color: #FFF;
+	font-family: Jost;
+	font-size: 21px;
+	font-style: normal;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+.cards {
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 49px;
+}
+
+.feedback_heafer_title {
+	color: #000;
+	font-family: Jost;
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 600;
+}
+
+.feedback_heafer {
+	margin-top: 96px;
+	display: flex;
+	justify-content: center;
+	align-content: space-around;
+}
+
+.feedback_img {
+	text-align: center;
+}
+
+.feedback_name {
+	margin-top: 12px;
+	margin-bottom: 0;
+	color: #000;
+	font-family: Jost;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 300;
+}
+
+.feedback_prof {
+	margin-top: 0;
+	color: #000;
+	font-family: Jost;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 300;
+}
+
+.feedback_button {
+	width: 50px;
+	height: 50px;
+}
+
+.feedback_text {
+	color: #000;
+	text-align: center;
+	font-family: Jost;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 300;
+	width: 1015px;
+}
+
+.feedback_main {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.feedback_radio_but {
+	text-align: center;
+	margin-top: 31px;
+}
+
+.question_title {
+	margin-top: 96px;
+	margin-bottom: 7px;
+	color: #000;
+	font-family: Jost;
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 600;
+}
+
+.question_description {
+	margin: 0;
+	margin-bottom: 65px;
+	color: #000;
+	font-family: Jost;
+	font-size: 23px;
+	font-style: normal;
+	font-weight: 300;
+}
+
+.question_form {
+	border-radius: 50px;
+	border: 1px solid rgba(118, 118, 118, 0.50);
+	background: #FFF;
+	height: 400px;
+	width: 700px;
+	margin: 0;
+}
+
+.in_1 {
+	margin-top: 27px;
+	border-radius: 30px;
+	border: 1px solid #BABABA;
+	background: #FFF;
+	width: 585px;
+	height: 64px;
+	color: #696969;
+	font-family: Jost;
+	font-size: 25px;
+	font-style: normal;
+	font-weight: 300;
+	display: block;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0 30px;
+}
+
+.question_button {
+	margin-top: 47px;
+	border-radius: 10px;
+	background: #9EB4FF;
+	border: #9EB4FF;
+	width: 210px;
+	height: 35px;
+	color: #FFF;
+	font-family: Jost;
+	font-size: 21px;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.footer {
+	height: 227px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.footer_logo {
+	color: #000;
+	font-family: Jost;
+	font-size: 35px;
+	font-style: normal;
+	font-weight: 600;
+}
+
+.footer_item {
+	margin-top: 10px;
+	list-style: none;
+	color: #000;
+	font-family: Jost;
+	font-size: 25px;
+	font-style: normal;
+	font-weight: 300;
+}
+
+.footer_item f_i {
+	color: #3E68FF;
+	font-weight: 400;
+}
